@@ -10,7 +10,7 @@ COPY . .
 
 FROM node:18-slim
 
-WORkDIR /app
+WORKDIR /app
 
 COPY --from=build /app /app
 

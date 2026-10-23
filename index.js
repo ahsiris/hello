@@ -4,7 +4,7 @@ const port=5000
 
 app.get('/',(req,res)=>
 {
- res.send("hello from docker");
+ res.send("hello from docker from updated");
 });
 
 app.listen(port,()=>
